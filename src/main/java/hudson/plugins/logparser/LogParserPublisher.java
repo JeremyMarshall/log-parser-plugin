@@ -48,7 +48,7 @@ public class LogParserPublisher extends Recorder implements Serializable {
      * @param projectRulePath
      *            path to project specific rules relative to workspace root.
      */
-    private LogParserPublisher(final boolean unstableOnWarning,
+    public LogParserPublisher(final boolean unstableOnWarning,
             final boolean failBuildOnError, final boolean showGraphs,
             final String parsingRulesPath, final boolean useProjectRule,
             final String projectRulePath) {

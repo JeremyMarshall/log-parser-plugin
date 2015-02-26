@@ -6,6 +6,7 @@ work
 *.iws
 *.ipr
 .idea
+.DS_Store
 out
 
 # eclipse project file
